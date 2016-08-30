@@ -1,0 +1,671 @@
+.lending-wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+.girl-lending {
+    width: 100%;
+    height: 540px;
+    background: url('images2/girl_bg.jpg') 50% no-repeat;
+    position: relative;
+}
+.girl-lending-margin {
+    height: 400px;
+}
+.girl-lending-text {
+    text-align: center;
+}
+.girl-lending-text p {
+    line-height: 42px;
+    padding-top: 15px;
+    height: 55px;
+    font-size: 55px;
+    color: #fff;
+    font-family: calibri;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.75);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=-0, Direction=120, Color='#000')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=-0, Direction=120, Color='#000');
+    filter:DropShadow(Color=#000, OffX=0, OffY=3);
+    zoom: 1;
+}
+.button-orange-lending {
+    width: 206px;
+    height: 43px;
+    border-bottom: 3px solid #e27d06;
+    background: #f7941d;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 43px;
+    border-radius: 4px;
+        -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+    position: absolute;
+    right: 20px;
+    top: 250px;
+}
+a.button-orange-lending:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+#button-green-lending {
+    width: 206px;
+    height: 40px;
+    border-bottom: 3px solid #55a727;
+    background: #67b73e;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 43px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    position: absolute;
+    right: 20px;
+    top: 308px;
+}
+a#button-green-lending:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.grass-lending {
+    height: 90px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.grass-lending p {
+    line-height: 35px;
+    box-sizing: border-box;
+    padding-top: 62px;
+}
+#p-h1 {
+    font-size: 30px;
+    color: #444444;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: calibri;
+    text-align: center;
+    height: 22px;
+}
+.advantages-lending {
+    width: 100%;
+    height: 279px;
+    background: url('images2/advantages-lending.jpg') 50% no-repeat;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.advantages-block-wrap {
+    width: 960px;
+    height: 182px;
+    margin-top: 25px;
+}
+.advantages-block-lending {
+    width: 192px;
+    height: 131px;
+    float: left;
+    color: #444444;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: calibri;
+}
+.advantages-lending-img-text {
+    width: 150px;
+    height: 131px;
+    margin: 0 auto;
+    text-align: center;
+}
+.advantages-lending-img-text img {
+    width: 80px;
+    height: 80px;
+}
+.advantages-lending-img-text p {
+    margin-top: 20px;
+}
+.comments-lending {
+    width: 100%;
+    height: 464px;
+    background: url('images2/comments-bg.jpg') 50% no-repeat;
+}
+.comments-lending-text {
+    padding-top: 50px;
+}
+.comments-comment-block-1 {
+    width: 444px;
+    height: 165px;
+    float: left;
+}
+.comments-comment-block-2-wrap {
+    width: 960px;
+    height: 165px;
+    float: left;
+}
+.comments-comment-block-2 {
+    width: 480px;
+    height: 165px;
+    margin: 0 auto;
+}
+.comments-comment-block-1-img {
+    width: 134px;
+    height: 165px;
+    float: left;
+}
+.comments-comment-block-1-text {
+    width: 310px;
+    height: 165px;
+    float: left;
+}
+#comments-brackets {
+    font-family: Georgia;
+    font-size: 60px;
+    font-weight: bold;
+    color: #6db33f;
+    float: left;
+    margin-top: -17px;
+}
+#comments-text {
+    margin-top: 40px;
+    box-sizing: border-box;
+    font-family: calibri;
+    font-style: italic;
+    font-size: 15px;
+    color: #333333;
+    float: left;
+    width: 306px;
+    
+}
+.comments-comment-block-1-wrap {
+    width: 888px;
+    padding-top: 27px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.plan-lending {
+    width: 100%;
+    background: url('images2/plan-landing.png') 50% 55px no-repeat;
+    height: 320px;
+}
+.plan-lending-text{
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.plan-lending-text-h1 {
+    margin-top: 25px;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    text-align: center;
+
+}
+.plan-lending-text-h1 p{
+    color: #549d24;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: bold;
+}
+.plan-lending-text-block {
+    width: 960px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-top: 155px;
+    float: left;
+}
+.plan-lending-info {
+    width: 112px;
+    height: 65px;
+    float: left;
+    text-align: center;
+    cursor: default;
+}.plan-lending-info p {
+     color: #333333;
+     font-family: calibri;
+     font-size: 15px;
+     font-weight: normal;
+    height: 35px;
+}
+
+#plan-info-1 {
+}
+#plan-info-2 {
+    margin-top: 32px;
+}
+.plan-lending-circle-wrap {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.plan-lending-circle {
+    width: 20px;
+    height: 20px;
+    background: url('images2/info.png') no-repeat;
+}
+.plan-lending-info:hover a.plan-lending-circle {
+    background: url('images2/info-hover-2.png') no-repeat;
+    transition: 0.7s;
+}
+.plan-lending-info:hover .okno {
+    display: block;
+}
+.agronom-lending {
+    width: 100%;
+    height: 367px;
+    background: url('images2/agronom-bg.jpg') no-repeat;
+    position: relative;
+}
+.agronom-lending-block {
+    width: 850px;
+    height: 256px;
+    border: 1px dashed #777777;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -128px;
+    left: 50%;
+    margin-left: -425px;
+    border-radius: 3px;
+        -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+}
+.agronom-lending-block-img {
+    width: 150px;
+    height: 256px;
+    float: left;
+    position: relative;
+}
+.agronom-lending-block-img img {
+    width: 116px;
+    height: 116px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -58px;
+}
+.agronom-lending-block-text {
+    width: 630px;
+    height: 256px;
+    float: left;
+    position: relative;
+}
+.agronom-lending-text-wrap {
+    width: 630px;
+    height: 169px;
+    color: #333333;
+    font-family: calibri;
+    font-size: 15px;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    margin-top: -85px;
+
+}
+#agronom-lending-text-2 {
+    box-sizing: border-box;
+    margin-top: 28px;
+}
+.agronom-lending-block-com {
+    width: 60px;
+    height: 256px;
+    float: left;
+    text-align: center;
+}
+.agronom-lending-block-com p {
+    font-size: 60px;
+    color: #777777;
+    font-weight: bold;
+    font-family: georgia;
+    margin-top: 30px;
+}
+.delivery-lending {
+    width: 100%;
+    height: 345px;
+    position: relative;
+}
+.delivery-lending-img-wrap {
+    width: 960px;
+    height: 100px;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.delivery-lending-img-block-wrap {
+    width: 192px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+#delivery-lending-img-0 {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -87px;
+}
+#delivery-lending-img-1 {
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    left: 50%;
+    margin-left: -85px;
+}
+#delivery-lending-img-2 {
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    left: 50%;
+    margin-left: -80px;
+}
+#delivery-lending-img-3 {
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+    left: 50%;
+    margin-left: -81px;
+}
+.delivery-lending-girl {
+    width: 960px;
+    height: 161px;
+    float: left;
+}
+.delivery-lending-girl-text {
+    width: 960px;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+.delivery-lending-girl-text p {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: calibri;
+}
+.delivery-lending-girl-phone-1 {
+    width: 960px;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}.delivery-lending-girl-phone-1 p {
+     font-size: 22px;
+     font-weight: bold;
+     font-family: calibri;
+    line-height: 23px;
+}
+ .delivery-lending-girl-phone-2 {
+     width: 960px;
+     float: left;
+     height: 16px;
+}
+ .delivery-lending-girl-phone-2 ul {
+     margin: 0 auto;
+     height: 16px;
+     width: 575px;
+}
+ .delivery-lending-girl-phone-2 li {
+     float: left;
+     list-style: none;
+     margin-right: 37px;
+}
+ .delivery-lending-girl-phone-2 li img {
+     float: left;
+}
+ .delivery-lending-girl-phone-2 li p {
+     float: left;
+     font-size: 22px;
+     font-weight: bold;
+     font-family: calibri;
+     margin-left: 8px;
+}
+
+.button-delivery-lending {
+    width: 206px;
+    height: 40px;
+    border-bottom: 3px solid #55a727;
+    background: #67b73e;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 43px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    margin-left: -103px;
+}
+a.button-delivery-lending:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.nav-landing-wrap {
+    width: 100%;
+    height: 67px;
+}
+.nav-landing-bg {
+    width: 100%;
+    height: 45px;
+    background: #ebebeb;
+}
+.nav-landing-shadow {
+    width: 100%;
+    height: 22px;
+    background: url('images2/shadow.png') 50% no-repeat;
+    position: relative;
+    z-index: 2;
+}
+.seo-landing {
+width: 100%;
+height: 482px;
+background: #f5f5f5;
+margin-top: -22px;
+position: relative;
+z-index: 1;
+}
+.seo-landing-text p{
+font-size: 15px;
+font-family: calibri;
+font-weight: normal;
+width: 960px;
+box-sizing: border-box;
+padding-top: 15px;
+}
+.seo-landing-text h2 {
+margin-top: 15px;
+font-weight: normal;
+font-size: 16px;
+}
+#one_item_image {
+    position: relative;
+    margin: 0 auto 10px auto;
+    display: inline-block;
+    overflow: hidden;
+    height: 200px;
+    width: 164px;
+}
+#one_item_image img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.fertilizer-block-wrap {
+    min-height: 410px;
+    width: 320px;
+    float: left;
+}
+.fertilizer-block {
+    width: 266px;
+    min-height: 360px;
+    margin: 0 auto;
+    position: relative;
+}
+.fertilizer-block-img-wrap {
+    width: 266px;
+    height: 220px;
+    float: left;
+    position: relative;
+}
+.fertilizer-block-grass {
+    position: absolute;
+    width: 266px;
+    height: 50px;
+    background: url('images2/grass-f1.png') no-repeat;
+    bottom: 0;
+}
+.fertilizer-block-img {
+    width: 266px;
+    height: 220px;
+    position: relative;
+}
+.fertilizer-block-img img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    max-width: 266px;
+    max-height: 220px;
+}
+.fertilizer-block-text {
+    position: relative;
+    width: 266px;
+    height: 115px;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+}
+.fertilizer-block-text a {
+    text-decoration: none;
+}
+.one_item_buttons a:hover {
+    text-decoration: underline;
+}
+.fertilizer-block-text-a {
+    text-align: center;
+    margin: 0 auto;
+    width: 225px;
+    height: 40px;
+}
+#fertilizer-block-position {
+    width: 266px;
+    height: 75px;
+}
+#fertilizer-item {
+    width: 266px;
+    min-height: 35px;
+    margin: 14px 0 0 0;
+}
+#fertilizer-buttons a {
+    margin: 0 auto;
+}
+.fertilizer-block-info {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    top: 90px;
+    z-index: 50;
+}
+.fertilizer-lending-circle {
+    width: 20px;
+    height: 20px;
+    background: url('images2/info.png') no-repeat;
+}
+.fertilizer-block:hover a.fertilizer-lending-circle {
+    background: url('images2/info-hover.png') no-repeat;
+    transition: 1.3s;
+}
+.fertilizer-lending-text-wrap {
+    height: 158px;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+#fertilizer-lending-text {
+    font-family: calibri;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.fertilizer-lending-text {
+    display: table-cell;
+    vertical-align: middle;
+    height: 158px;
+    width: 960px;
+}
+.okno {
+    width: 304px;
+    height: 120px;
+    position: relative;
+    margin-left: -96px;
+    background: url("images2/info-hove-text.png") no-repeat;
+    display: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 13px;
+}
+.okno p {
+    width: 277px;
+    height: 96px;
+    vertical-align: middle;
+    display: table-cell;
+}
+.one_item_image {
+    position: relative;
+}
+#img-pre1 {
+    width: 35px;
+    height: 35px;
+    right: -17px;
+    top: -17px;
+    position: absolute;
+}
+#img-pre2 {
+    width: 35px;
+    height: 35px;
+    right: -17px;
+    top: 27px;
+    position: absolute;
+}
+#img-pre3 {
+    width: 35px;
+    height: 35px;
+    right: -17px;
+    top: 70px;
+    position: absolute;
+}
+#img-pre4{
+    width: 35px;
+    height: 35px;
+    right: -17px;
+    top: 115px;
+    position: absolute;
+}
+.items .one_item .one_item_image {
+    overflow: visible;
+}
+#pic-img {
+    width: 74px;
+    height: 72px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    z-index: 999;
+}
+.one_item_title {
+    width: 225px;
+    margin-left: -25px;
+}
+.subcategory .items .one_item, .search .items .one_item {
+    min-height: 375px;
+}
+
+
+

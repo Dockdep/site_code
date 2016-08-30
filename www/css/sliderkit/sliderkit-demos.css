@@ -1,0 +1,66 @@
+/*  
+ *  sliderkit-demos.css
+ *	> CSS code for demos
+ *  
+ *  This file is part of Slider Kit jQuery plugin.
+ *  http://www.kyrielles.net/sliderkit/
+ *  
+ *  Copyright (c) 2010-2011 Alan Frog
+ *  Licensed under the GNU General Public License
+ *  See <license.txt> or <http://www.gnu.org/licenses/>
+ *
+ */
+
+
+/*
+ *  CAROUSEL
+ *  ------------------------------------------------
+ */
+
+/*---------------------------------
+ *  Carousel > Demo #1
+ *---------------------------------*/
+.carousel-demo1{height:84px;}
+
+/* Navbar */
+.carousel-demo1 .sliderkit-nav{
+    left:0;
+    bottom:0;
+
+    height:64px;
+    padding:10px 0;
+}
+.carousel-demo1 .sliderkit-nav-clip ul li{float:left;margin:0 5px 0 0;}
+.carousel-demo1 .sliderkit-nav-clip ul li a{
+    display:block;
+    width:60px;
+    height:60px;
+    overflow:hidden;
+    opacity:0.8;
+    padding: 2px;
+    border: 1px solid #e2e2e2;
+    margin: 0 5px 0 0;
+}
+.carousel-demo1 .sliderkit-nav-clip ul li a:hover,
+.carousel-demo1 .sliderkit-nav-clip ul li a.active
+{
+    opacity:1;
+    border: 1px solid #4a4a4a;
+}
+
+/* Buttons */
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-btn{position:absolute;bottom: 33px;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-btn span{display:none;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-btn a{display:block;width:15px;height:22px;background:transparent url("/images/arrows_small.png") no-repeat center center;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-prev{left:5px;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-next{right:10px;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-prev a{background-position:3px -18px;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-next a{background-position:-10px -18px;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-prev a:hover,
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-prev a:focus{background-position:3px 2px;}
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-next a:hover,
+.carousel-demo1 .sliderkit-nav .sliderkit-nav-next a:focus{background-position:-10px 2px;}
+
+/* Buttons > Disable */
+.carousel-demo1 .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;cursor:default;}
+

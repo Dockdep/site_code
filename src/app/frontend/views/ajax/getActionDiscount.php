@@ -1,0 +1,1 @@
+<?= $this->partial('partial/action_discount', ['action_discount' => $action_discount]) ?>

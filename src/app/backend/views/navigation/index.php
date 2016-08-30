@@ -1,0 +1,52 @@
+<div id="static_page">
+    <div class="inner"><?= $this->flash->output(); ?></div>
+    <div class="inner">
+        <div class="sidebar_content_wrapper clearfix">
+            <div class="sidebar_wrapper float">
+                <div class="sidebar clearfix">
+                    <?= $this->partial('partial/sidebar') ?>
+                </div>
+            </div>
+            <div class="content_wrapper float">
+                <div class="h_700">
+                    <div class="content_wrapper_list clearfix">
+                        <div class="table_name header_gradient">Меню</div>
+                        <div class="table_add_page"><a href="<?= $this->url->get([ 'for' => 'navigation_add' ]) ?>" title="Добавить пункт">Добавить пункт меню</a></div>
+
+                        <div class="table_pages_wrapper">
+
+                            <?php
+
+                            if( !empty( $info ) )
+                            {
+                                $data_pages = '';
+
+                                foreach( $info as $p )
+                                {
+                                    $data_pages .=
+                                        '<div class="one_page_edit header_gradient clearfix">'.
+                                        '<div class="one_page_edit_check float"></div>'.
+                                        '<div class="one_page_edit_name float"><a href="/navigation_update/'.$p['id'].'" title="">'.$p['name'].'</a></div>'.
+                                        '<div class="one_page_delete_ico float_right"><a href="/navigation_delete/'.$p['id'].'" title="Удалить пункт меню" onclick="return confirm(\'Вы действительно хотите удалить пункт меню?\')"></a></div>'.
+                                        '<div class="one_page_edit_ico float_right"><a href="/navigation_update/'.$p['id'].'" title="Редактировать пункт меню"></a></div>'.
+                                        '</div>';
+                                }
+
+
+                                echo( $data_pages );
+                            }
+
+                            ?>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+ 

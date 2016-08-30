@@ -1,0 +1,497 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="style-form-grass-calc.css">
+    <link rel="stylesheet" type="text/css" href="trackbar.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="jquery.trackbar.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollbox.min.js"></script>
+    <script type="text/javascript" src="js/script-calc.js"></script>
+</head>
+<body>
+    <div class="form-grass-calc">
+        <form name="myform-grass" action="#" method="POST">
+        <div class="calc-text"><p>Калькулятор</p></div>
+        <div class="calc-form-wrap">
+            <div class="calc-form">
+                <div class="calc-form-left-wrap">
+                    <div class="calc-form-left">
+                        <div class="calc-left-text-1"><p>Площадь</p></div>
+                        <div class="calc-left-text-calc-wrap">
+                            <div class="calc-left-text-calc"><input type="text" id="firstChar" value="1"/></div>
+                        </div>
+                        <div class="calc-left-text-2"><p>м2</p></div>
+                    </div>
+                    <div class="calc-left-line-wrap-margin">
+                        <div class="calc-left-line-wrap">
+                            <div id="track"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calc-form-right-wrap">
+                    <p>
+                        Участок перед домом отличается по освещению и нагрузкам от участка за домом. Поэтому и трава должна быть разная.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="form-checkbox-wrap">
+            <div class="block-form-checkbox-wrap">
+                <div class="forma-check check-1">
+                    <div class="check-1-1">
+                        <div class="check-img">
+                            <div class="check-img-wrap" style="margin-right: 12px">
+                                <img src="form-img/sun-1.jpg" width="48" height="48" />
+                                <div class="button-check-1">
+                                    <input id="radio1" class="rad1" type="radio" name="group1" value="sun-1" checked><label for="radio1"><span></span></label>
+                                </div>
+                            </div>
+                            <div class="check-img-wrap">
+                                <img src="form-img/sun-2.jpg" width="48" height="48" />
+                                <div class="button-check-1">
+                                    <input id="radio2" type="radio" name="group1" value="sun-2"><label for="radio2"><span></span></label>
+                                </div>
+                            </div>
+                            <div class="check-img-wrap">
+                                <img src="form-img/sun-3.jpg" width="48" height="48" />
+                                <div class="button-check-1">
+                                    <input id="radio3" type="radio" name="group1" value="sun-3"><label for="radio3"><span></span></label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="forma-check-text">
+                        <p>
+                            <span>Освещение</br></span>
+                            Выберите интенсивность</br>
+                            солнечного света на</br>
+                            вашем участке.
+                        </p>
+                    </div>
+                </div>
+                <div class="forma-check check-2">
+                    <div class="check-2-1">
+                        <div class="check-img">
+                            <div class="check-img-wrap-2" style="margin-right: 20px">
+                                <img src="form-img/grass-1.jpg" width="64" height="48" />
+                                <div class="button-check-2">
+                                    <input id="radio4" type="radio" name="group2" value="grass-1" checked><label for="radio4"><span></span></label>
+                                </div>
+                            </div>
+                            <div class="check-img-wrap-2">
+                                <img src="form-img/grass-2.jpg" width="64" height="48" />
+                                <div class="button-check-2">
+                                    <input id="radio5" type="radio" name="group2" value="grass-2"><label for="radio5"><span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forma-check-text">
+                        <p>
+                            <span>Частота стрижки</span></br>
+                                    Трава отличается по</br>
+                                    интенсивности роста и высоте.</br>
+                                    Какую вы предпочтете?
+                        </p>
+                    </div>
+                </div>
+                <div class="forma-check check-3">
+                    <div class="check-3-1">
+                        <div class="check-img">
+                            <div class="check-img-wrap" style="margin-right: 12px">
+                                <img src="form-img/ball.jpg" width="48" height="48" />
+                                <div class="button-check-1">
+                                    <input id="radio6" type="radio" name="group3" value="ball" checked><label for="radio6"><span></span></label>
+                                </div>
+                            </div>
+                            <div class="check-img-wrap" style="margin-right: 12px">
+                                <img src="form-img/relax.jpg" width="48" height="48" />
+                                <div class="button-check-1">
+                                    <input id="radio7" type="radio" name="group3" value="relax"><label for="radio7"><span></span></label>
+                                </div>
+                            </div>
+                            <div class="check-img-wrap">
+                                <img src="form-img/dont-walk.jpg" width="48" height="48" />
+                                <div class="button-check-1">
+                                    <input id="radio8" type="radio" name="group3" value="dont-walk"><label for="radio8"><span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forma-check-text">
+                        <p>
+                            <span>Нагрузки</span></br>
+Какую функцию будет выполнять</br>газон? Футбольное поле или же зона</br>отдыха? А может вы хотите создать</br>свой заповедный уголок?
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="form-recomended-wrap">
+                <div class="form-recomended-wrap-two">
+                    <div class="form-recomended-wrap-tovar">
+                        <div class="form-arrows-left"><a class="form-arrows-left-wr" href="#"></a></div>
+                        <div class="form-arrows-right"><a class="form-arrows-right-wr" href="#"></a></div>
+                        <div class="form-recomended-tovar"><p>Рекомендуемый товар</p></div>
+                        <div class="form-recomended-tovar-gazon-wrap">
+                            <div id="demo5" class="scroll-img">
+                                <ul id="ul1">
+                                    <li id="display-4">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_universalnyy_1c2-87/ru">
+                                                    <img src="http://storage.semena.in.ua/avatar/9/b/b/a/9bbad3ccad6bbbbf183082ff978a4156/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_universalnyy_1c2-87/ru" title=""><h3>Газон Универсальный</h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>18.8</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_universalnyy_1c2-87/ru">подробней</a>
+                                        </div>
+                                    </li>
+                                    <li id="display-5">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_sportivnyy_1c2-91/ru">
+                                                    <img src="http://storage.semena.in.ua/avatar/c/4/1/c/c41c6dd11fee9880588b05088bc67676/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_sportivnyy_1c2-91/ru" title=""><h3>Газон Спортивный</h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>18.8</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_sportivnyy_1c2-91/ru">подробней</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul id="ul2" style="display: none;">
+                                    <li id="display-1" class="display-1">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_milvus_1c2-88/ru">
+                                                    <img src="http://storage.semena.in.ua/avatar/3/a/2/c/3a2c59304e1290d769277f9ca3f81bbc/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_milvus_1c2-88/ru" title=""><h3>Клевер Мильвус</h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>14.2</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_milvus_1c2-88/ru">подробней</a>
+                                        </div>
+                                    </li>
+                                    <li id="display-2" class="display-2">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_parkovyy_1c2-89/ru">
+                                                    <img src="http://storage.semena.in.ua/avatar/9/7/5/1/975159a6eb10485339a24af6cc0ca26d/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_parkovyy_1c2-89/ru" title=""><h3>Газон Парковый
+                                            </h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>18.80</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_parkovyy_1c2-89/ru">подробней</a>
+                                        </div>
+                                    </li>
+                                    <li id="display-3">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonni_travi_1c0/nasinnja_gazonnikh_trav_1c1/gazon_posukhostiykiy_1c-90">
+                                                    <img src="http://storage.semena.in.ua/avatar/6/0/3/e/603eb6277e041cd98e6f3f8525223971/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonni_travi_1c0/nasinnja_gazonnikh_trav_1c1/gazon_posukhostiykiy_1c-90" title=""><h3>Газон Засухоустойчивый</h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>18.8</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonni_travi_1c0/nasinnja_gazonnikh_trav_1c1/gazon_posukhostiykiy_1c-90">подробней</a>
+                                        </div>
+                                    </li>
+                                    <li id="display-4">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_universalnyy_1c2-87/ru">
+                                                    <img src="http://storage.semena.in.ua/avatar/4/3/7/8/43786eb20ef3e65f98c0438077ba53a9/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_universalnyy_1c2-87/ru" title=""><h3>Газон Универсальный</h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>18.8</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_universalnyy_1c2-87/ru">подробней</a>
+                                        </div>
+                                    </li>
+                                    <li id="display-5">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_sportivnyy_1c2-91/ru">
+                                                    <img src="http://storage.semena.in.ua/avatar/c/4/1/c/c41c6dd11fee9880588b05088bc67676/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_sportivnyy_1c2-91/ru" title=""><h3>Газон Спортивный</h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>18.8</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/gazon_sportivnyy_1c2-91/ru">подробней</a>
+                                        </div>
+                                    </li>
+                                    <li id="display-6">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_milvus_1c2-88/ru">
+                                                    <img src="http://storage.semena.in.ua/avatar/2/a/2/a/2a2a230487a81740577024decee3a276/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_milvus_1c2-88/ru" title=""><h3>Газон Дюймовочка</h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>18.8</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_milvus_1c2-88/ru">подробней</a>
+                                        </div>
+                                    </li>
+                                    <li id="display-7">
+                                        <div class="recomended-tovar-gazon-img-wrap">
+                                            <div class="form-recomended-tovar-gazon-img-wrap">
+                                                <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_rivendel_1c2-92/ru">
+                                                    <img src="http://storage.semena.in.ua/avatar/3/5/a/4/35a403d0efe32a05dadf2736200d03af/200x.jpg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-recomended-h3">
+                                            <a target="_blank" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_rivendel_1c2-92/ru" title=""><h3>Клевер Ривендел</h3></a>
+                                        </div>
+                                        <div class="form-recomended-description"><p>Для спортивных и игровых площадок.</p></div>
+                                        <div class="form-recomended-price-buttons">
+                                            <div class="form-recomended-price"><p>цена от <span>30</span> грн</p></div>
+                                            <a target="_blank" class="form-recomended-buttons" href="http://semena.in.ua/gazonnye_travy_1c_20/semena_gazonnykh_trav_1c_21/klever_dekorativnyy_rivendel_1c2-92/ru">подробней</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-recomended-wrap-volume">
+                        <div class="form-recomended-wrap-volume-block">
+                            <div class="form-recomended-volune"><p>Рекомендуемый объём</p></div>
+                            <div class="form-recomended-block-wrap">
+                                <div class="form-recomended-wrap-pic">
+                                    <div class="form-recomended-wrap-pic-min"></div>
+                                    <div class="form-recomended-wrap-pic-text">
+                                        <p id="price-val-1" style="display: none;"></p>
+                                        <p id="price-val-2" style="display: none;"></p>
+                                        <p id="price-val-3" style="display: none;"></p>
+                                        <p id="price-val-4" style=""></p>
+                                        <p id="price-val-5" style="display: none;"></p>
+                                        <p id="price-val-6" style="display: none;"></p>
+                                        <p id="price-val-7" style="display: none;"></p>
+                                    </div>
+                                </div>
+                                <div class="form-recomended-wrap-pic-text-2">
+                                    <p id="price-qua-1" style="display: none;"></p>
+                                    <p id="price-qua-2" style="display: none;"></p>
+                                    <p id="price-qua-3" style="display: none;"></p>
+                                    <p id="price-qua-4" style="display: block;"></p>
+                                    <p id="price-qua-5" style="display: none;"></p>
+                                    <p id="price-qua-6" style="display: none;"></p>
+                                    <p id="price-qua-7" style="display: none;"></p>
+                                </div>
+                            </div>
+                            <div class="form-recomended-wrap-price">
+                                <div id="price-f1" style="display: none;">
+                                    <div id="price-first-one"><p>цена <span></span> грн</p></div>
+                                    <div id="price-first-two"><p>цена <span></span> грн</p></div>
+                                </div>
+                                <div id="price-f2" style="display: none;">
+                                    <div id="price-second-one"><p>цена <span></span> грн</p></div>
+                                    <div id="price-second-two"><p>цена <span></span> грн</p></div>
+                                    <div id="price-second-three"><p>цена <span></span> грн</p></div>
+                                </div>
+                                <div id="price-f3" style="display: none;">
+                                    <div id="price-three-one"><p><p>цена <span></span> грн</p></div>
+                                    <div id="price-three-two"><p><p>цена <span></span> грн</p></div>
+                                    <div id="price-three-three"><p>цена <span></span> грн</p></div>
+                                </div>
+                                <div id="price-f4" style="display: block;">
+                                    <div id="price-four-one"><p>цена <span></span> грн</p></div>
+                                    <div id="price-four-two"><p>цена <span></span> грн</p></div>
+                                    <div id="price-four-three"><p>цена <span></span> грн</p></div>
+                                </div>
+                                <div id="price-f5" style="display: none;">
+                                    <div id="price-five-one"><p>цена <span></span> грн</p></div>
+                                    <div id="price-five-two"><p>цена <span></span> грн</p></div>
+                                    <div id="price-five-three"><p>цена <span></span> грн</p></div>
+                                </div>
+                                <div id="price-f6" style="display: none;">
+                                    <div id="price-six-one"><p>цена <span></span> грн</p></div>
+                                    <div id="price-six-two"><p>цена <span></span> грн</p></div>
+                                    <div id="price-six-three"><p>цена <span></span> грн</p></div>
+                                </div>
+                                <div id="price-f7" style="display: none;">
+                                    <div id="price-seven-one"><p>цена <span></span> грн</p></div>
+                                    <div id="price-seven-two"><p>цена <span></span> грн</p></div>
+                                    <div id="price-seven-three"><p>цена <span></span> грн</p></div>
+                                    <div id="price-seven-four"><p>цена <span></span> грн</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+                    <div class="form-recomended-wrap-basket">
+                        <div class="form-basket-wrap">
+                            <div class="form-recomended-basket-text">
+                                <p>
+                                    Добавьте семена и выберите для следующего участка.
+                                </p>
+                            </div>
+                            <div class="form-basket-button-wrap">
+                                <a href="#" class="pr-vol-1" id="form-basket-button" style="display:none;" target='_blank'>в корзину</a>
+                                <a href="#" class="pr-vol-2" id="form-basket-button" style="display:none;" target='_blank'>в корзину</a>
+                                <a href="#" class="pr-vol-3" id="form-basket-button" style="display:none;" target='_blank'>в корзину</a>
+                                <a href="#" class="pr-vol-4" id="form-basket-button" style="display:block;" target='_blank'>в корзину</a>
+                                <a href="#" class="pr-vol-5" id="form-basket-button" style="display:none;" target='_blank'>в корзину</a>
+                                <a href="#" class="pr-vol-6" id="form-basket-button" style="display:none;" target='_blank'>в корзину</a>
+                                <a href="#" class="pr-vol-7" id="form-basket-button" style="display:none;" target='_blank'>в корзину</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+
+    </form>
+    </div>
+    <script>
+        function outputUpdate(calc) {
+            document.querySelector('#form-calc').value = calc;
+        }
+    </script>
+    <script>
+            $(function () {
+                function buttonNextPrice() {
+                    var ab = $('#ul1').children('li').eq(0).attr('id');
+                    var ab1 = $('#display-1').attr('id');
+                    var ab2 = $('#display-2').attr('id');
+                    var ab3 = $('#display-3').attr('id');
+                    var ab4 = $('#display-4').attr('id');
+                    var ab5 = $('#display-5').attr('id');
+                    var ab6 = $('#display-6').attr('id');
+                    var ab7 = $('#display-7').attr('id');
+                    //console.log(ab + ' ' + ab4);
+                    if (ab == ab1) {
+                        $('#price-val-2, #price-val-3, #price-val-4, #price-val-5, #price-val-6, #price-val-7').css({display: "none"});
+                        $('#price-qua-2, #price-qua-3, #price-qua-4, #price-qua-5, #price-qua-6, #price-qua-7').css({display: "none"});
+                        $('#price-f2, #price-f3, #price-f4, #price-f5, #price-f6, #price-f7').css({display: "none"});
+                        $('.pr-vol-2, .pr-vol-3, .pr-vol-4, .pr-vol-5, .pr-vol-6, .pr-vol-7').css({display: "none"});
+                        $('#price-val-1, #price-qua-1, #price-f1, .pr-vol-1').css({display: "block"});
+                        console.log('price1')
+
+                    } else if ((ab == ab2)) {
+                        $('#price-val-2, #price-qua-2, #price-f2, .pr-vol-2').css({display: "block"});
+                        $('#price-val-1, #price-val-4, #price-val-3, #price-val-5, #price-val-6, #price-val-7').css({display: "none"});
+                        $('#price-qua-1, #price-qua-4, #price-qua-3, #price-qua-5, #price-qua-6, #price-qua-7').css({display: "none"});
+                        $('#price-f1, #price-f3, #price-f4, #price-f5, #price-f6, #price-f7').css({display: "none"});
+                        $('.pr-vol-1, .pr-vol-3, .pr-vol-4, .pr-vol-5, .pr-vol-6, .pr-vol-7').css({display: "none"});
+                        console.log('price2')
+
+                    }else if ((ab == ab3)) {
+                        $('#price-val-3, #price-qua-3, #price-f3, .pr-vol-3').css({display: "block"});
+                        $('#price-val-1, #price-val-2, #price-val-4, #price-val-5, #price-val-6, #price-val-7').css({display: "none"});
+                        $('#price-qua-1, #price-qua-2, #price-qua-4, #price-qua-5, #price-qua-6, #price-qua-7').css({display: "none"});
+                        $('#price-f1, #price-f2, #price-f4, #price-f5, #price-f6, #price-f7').css({display: "none"});
+                        $('.pr-vol-1, .pr-vol-2, .pr-vol-4, .pr-vol-5, .pr-vol-6, .pr-vol-7').css({display: "none"});
+                        console.log('price3')
+                    }
+                    else if ((ab == ab4)) {
+                        $('#price-val-4, #price-qua-4, #price-f4, .pr-vol-4').css({display: "block"});
+                        $('#price-val-1, #price-val-2, #price-val-3, #price-val-5, #price-val-6, #price-val-7').css({display: "none"});
+                        $('#price-qua-1, #price-qua-2, #price-qua-3, #price-qua-5, #price-qua-6, #price-qua-7').css({display: "none"});
+                        $('#price-f1, #price-f2, #price-f3, #price-f5, #price-f6, #price-f7').css({display: "none"});
+                        $('.pr-vol-1, .pr-vol-2, .pr-vol-3, .pr-vol-5, .pr-vol-6, .pr-vol-7').css({display: "none"});
+                        console.log('price4')
+
+                    }else if ((ab == ab5)) {
+                        $('#price-val-5, #price-qua-5, #price-f5, .pr-vol-5').css({display: "block"});
+                        $('#price-val-1, #price-val-2, #price-val-3, #price-val-4, #price-val-6, #price-val-7').css({display: "none"});
+                        $('#price-qua-1, #price-qua-2, #price-qua-3, #price-qua-4, #price-qua-6, #price-qua-7').css({display: "none"});
+                        $('#price-f1, #price-f2, #price-f3, #price-f4, #price-f6, #price-f7').css({display: "none"});
+                        $('.pr-vol-1, .pr-vol-2, .pr-vol-3, .pr-vol-4, .pr-vol-6, .pr-vol-7').css({display: "none"});
+                        console.log('price5')
+                    }
+                    else if ((ab == ab6)) {
+                        $('#price-val-6, #price-qua-6, #price-f6, .pr-vol-6').css({display: "block"});
+                        $('#price-val-1, #price-val-2, #price-val-3, #price-val-5, #price-val-4, #price-val-7').css({display: "none"});
+                        $('#price-qua-1, #price-qua-2, #price-qua-3, #price-qua-5, #price-qua-4, #price-qua-7').css({display: "none"});
+                        $('#price-f1, #price-f2, #price-f3, #price-f4, #price-f5, #price-f7').css({display: "none"});
+                        $('.pr-vol-1, .pr-vol-2, .pr-vol-3, .pr-vol-4, .pr-vol-5, .pr-vol-7').css({display: "none"});
+                        console.log('price6')
+                    }
+                    else if ((ab == ab7)) {
+                        $('#price-val-7, #price-qua-7, #price-f7, .pr-vol-7').css({display: "block"});
+                        $('#price-val-1, #price-val-2, #price-val-3, #price-val-5, #price-val-4, #price-val-6').css({display: "none"});
+                        $('#price-qua-1, #price-qua-2, #price-qua-3, #price-qua-5, #price-qua-4, #price-qua-6').css({display: "none"});
+                        $('#price-f1, #price-f2, #price-f3, #price-f4, #price-f5, #price-f6').css({display: "none"});
+                        $('.pr-vol-1, .pr-vol-2, .pr-vol-3, .pr-vol-4, .pr-vol-5, .pr-vol-6').css({display: "none"});
+                        console.log('price7')
+                    }
+                }
+                $('#demo5').scrollbox({
+                    direction: 'h',
+                    distance: 240,
+                    autoPlay: false,
+                    afterForward: function (data) {
+                    buttonNextPrice();
+                },
+                    afterBackward: function (data) {
+                        buttonNextPrice();
+                    }
+                });
+                $('.form-arrows-left-wr').click(function (e) {
+                    e.preventDefault();
+                    $('#demo5').trigger('backward');
+
+                });
+                $('.form-arrows-right-wr').click(function (e) {
+                    e.preventDefault();
+                    $('#demo5').trigger('forward');
+
+                });
+            });
+    </script>
+</body>
+</html>
